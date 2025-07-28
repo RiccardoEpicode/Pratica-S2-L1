@@ -135,14 +135,14 @@ let name1 = "john";
 let name2 = "John";
 
 document.getElementById("answer7").innerText =
-  "L'uguaglianza tra i due nomi è: " + (name1 === name2);
+  "L'uguaglianza tra i due nomi è: " + (name1 === name2) + "\n";
 
 // EXTRA: uguaglianza se entrambe in lowercase
 let name2Lower = name2.toLowerCase();
 let namesEqualLowercase = name1 === name2Lower;
 
 document.getElementById("answer7").innerText +=
-  "\nUguali se in lowercase: " + namesEqualLowercase;
+  "\n\n Uguali se in lowercase: " + namesEqualLowercase;
 
 console.log(name1 === name2);
 console.log("Uguali in lowercase:", namesEqualLowercase);
